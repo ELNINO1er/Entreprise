@@ -633,7 +633,12 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
 /* =========================================================
    RESPONSIVE
    ========================================================= */
+.nav__link { white-space: nowrap; }
 @media (max-width: 1080px) {
+  .nav { gap: 0; }
+  .nav__link { padding: 8px 12px; font-size: 13px; }
+  .header__cta { margin-left: 6px; }
+  .header__inner { gap: 12px; }
   .hero__lead { display: none; }
   .diff__top { grid-template-columns: 1fr 1fr; }
   .diff__top .btn { justify-self: start; }
