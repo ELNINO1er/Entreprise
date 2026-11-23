@@ -1,0 +1,9 @@
+# Aperçu de travail, inutile sur le dépôt
+selection-videos.jpg
+
+# Fichiers système / éditeur
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eburnéa — Agence digitale à Abidjan</title>
+  <meta name="description" content="Eburnéa, agence digitale basée à Abidjan : création de sites web, branding, stratégie et développement sur mesure pour les entreprises ivoiriennes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Bande floue en haut de l'écran + curseur doux -->
+  <div class="topblur" aria-hidden="true"></div>
+  <div class="cursor-blob" aria-hidden="true"></div>
+
+  <!-- ================= EN-TÊTE ================= -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#" class="logo" aria-label="Eburnéa, accueil">
+        <span class="logo__word"><span class="logo__o"></span>EBURNÉA</span>
+        <span class="logo__sep"></span>
+        <span class="logo__badge">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4c-3 2-4 6-3 9 1 3 4 5 7 6M17 4c3 2 4 6 3 9-1 3-4 5-7 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M5 7l2 1M4 11l2.2.4M5 15l2-.5M19 7l-2 1M20 11l-2.2.4M19 15l-2-.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="12" cy="11" r="2.4" fill="currentColor"/></svg>
+          <span>Meilleure agence<br>digitale 2025</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navigation principale">
+        <a href="#" class="nav__link is-active">Accueil</a>
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#apropos" class="nav__link">À propos</a>
+        <a href="#realisations" class="nav__link">Nos réalisations</a>
+      </nav>
+
+      <a href="#contact" class="btn btn--primary btn--sm header__cta">
+        <span>Contactez-nous</span><i class="btn__arrow"></i>
+      </a>
+      <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="top">
+      <div class="hero__card">
+        <div class="hero__notch" aria-hidden="true"></div>
+        <img class="hero__bg" src="assets/img/hero.jpg" alt="Équipe en réunion dans des bureaux à Abidjan">
+        <div class="hero__shade"></div>
+
+        <div class="hero__content">
+          <span class="dots dots--light" aria-hidden="true"><i></i><i></i></span>
+          <h1 class="hero__title">
+            <span class="line"><span class="split">Nous bâtissons</span></span>
+            <span class="line line--2">
+              <span class="avatars">
+                <img src="assets/img/visages/v02.jpg" alt="">
+                <img src="assets/img/visages/v04.jpg" alt="">
+                <img src="assets/img/visages/v08.jpg" alt="">
+              </span>
+              <span class="split">Ensemble</span>
+            </span>
+          </h1>
+          <div class="hero__btns">
+            <a href="#services" class="btn btn--primary"><span>Services</span><i class="btn__arrow"></i></a>
+            <a href="#apropos" class="btn btn--glass"><span>À propos</span><i class="btn__arrow"></i></a>
+          </div>
+        </div>
+
+        <p class="hero__lead blur-text" data-auto>Notre approche est simple, ciblée et pensée pour avoir un réel impact sur votre activité.</p>
+
+        <div class="hero__info">
+          <p>Dans notre agence, on fait briller votre entreprise. Nous créons des sites modernes et efficaces qui donnent des résultats.</p>
+          <a href="#contact" class="circle-btn" aria-label="Nous contacter"><i class="btn__arrow"></i></a>
+        </div>
+
+        <div class="marquee" aria-hidden="true">
+          <div class="marquee__track">
+            <span>STUDIO</span><span>SITE WEB</span><span>STRATÉGIE</span><span>WORDPRESS</span><span>BRANDING</span><span>DESIGN</span><span>WEBDESIGN</span><span>CRÉATION</span><span>AGENCE</span><span>DÉVELOPPEMENT</span><span>ABIDJAN</span>
+            <span>STUDIO</span><span>SITE WEB</span><span>STRATÉGIE</span><span>WORDPRESS</span><span>BRANDING</span><span>DESIGN</span><span>WEBDESIGN</span><span>CRÉATION</span><span>AGENCE</span><span>DÉVELOPPEMENT</span><span>ABIDJAN</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= QUI SOMMES-NOUS ================= -->
+    <section class="about" id="apropos">
+      <span class="dots reveal" aria-hidden="true"><i></i><i></i></span>
+      <h2 class="title reveal">Qui sommes-<span class="blue">nous ?</span></h2>
+      <p class="about__text blur-text">Nous sommes une équipe soudée qui cumule plus de 20 ans d'expérience à aider les startups et PME ivoiriennes à montrer tout le potentiel de leurs produits. Que vous soyez un acteur confirmé du digital ou que vous fassiez vos premiers pas, nous avons l'expertise et les stratégies pour propulser votre marque.</p>
+      <div class="btn-row reveal">
+        <a href="#services" class="btn btn--primary btn--sm"><span>À propos</span><i class="btn__arrow"></i></a>
+        <a href="#webinaires" class="btn btn--outline btn--sm"><span>Rencontrer l'équipe</span><i class="arrow-plain">→</i></a>
+      </div>
+    </section>
+
+    <!-- ================= NOS RÉALISATIONS (cartes inclinées) ================= -->
+    <section class="work" id="realisations">
+      <div class="work__sticky">
+        <!-- Cartes gauche -->
+        <article class="mock mock--l1" data-speed="1" data-rot="-3" data-x="-1">
+          <img src="assets/img/assinie.jpg" alt="">
+          <div class="mock__bar"><b>ASSINIE</b><span>Séjours · Hôtels · Contact</span></div>
+          <strong class="mock__giant">ASSINIE</strong>
+        </article>
+        <article class="mock mock--l2 mock--dark" data-speed="1" data-rot="3" data-x="-1">
+          <img src="assets/img/plateau.jpg" alt="">
+          <strong class="mock__big">ABJ 2</strong>
+          <div class="mock__foot"><span>Le Plateau</span><span>Bureaux premium</span></div>
+        </article>
+        <article class="mock mock--l3" data-speed="1" data-rot="-13" data-x="-1">
+          <img src="assets/img/lagune.jpg" alt="">
+          <div class="mock__panel">
+            <span class="pill-g">Visite virtuelle</span>
+            <span class="pill-g">Réserver</span>
+            <span class="pill-w">Cocody Riviera</span>
+            <span class="pill-w">4 chambres</span>
+            <span class="pill-w">Piscine</span>
+          </div>
+        </article>
+        <article class="mock mock--l4" data-speed="1" data-rot="-18" data-x="-1">
+          <img src="assets/img/marche.jpg" alt="">
+          <div class="mock__bar"><b>MARCHÉ</b><span>Commander</span></div>
+          <strong class="mock__mid">Le marché<br>livré chez vous</strong>
+        </article>
+
+        <!-- Cartes droite -->
+        <article class="mock mock--r1 mock--blue" data-speed="1" data-rot="4" data-x="1">
+          <img src="assets/img/bassam.jpg" alt="">
+          <div class="mock__bar"><b>VOYAGES</b><span>Destinations · Réserver</span></div>
+          <ul class="mock__list">
+            <li><small>01.</small> Assinie Mafia</li>
+            <li><small>02.</small> Man, la cascade</li>
+            <li class="on"><small>03.</small> <u>Grand-Bassam</u> Plage</li>
+            <li><small>04.</small> Yamoussoukro</li>
+          </ul>
+        </article>
+        <article class="mock mock--r2 mock--brown" data-speed="1" data-rot="2" data-x="1">
+          <img src="assets/img/pagnes.jpg" alt="">
+          <strong class="mock__mid">Pagne d'Or</strong>
+          <p class="mock__small">Wax, Kita et Baoulé tissés à la main. Livraison partout à Abidjan.</p>
+        </article>
+        <article class="mock mock--r3" data-speed="1" data-rot="13" data-x="1">
+          <img src="assets/img/plage.jpg" alt="">
+          <div class="mock__bar"><b>◉ Résidences</b><span>Explorer</span></div>
+          <strong class="mock__big2">Riviera<br>Golf</strong>
+          <span class="mock__tag">À partir de 85 000 FCFA / nuit</span>
+        </article>
+        <article class="mock mock--r4 mock--dark" data-speed="1" data-rot="18" data-x="1">
+          <img src="assets/img/plateau.jpg" alt="">
+          <strong class="mock__mid">Babi Events</strong>
+          <p class="mock__small">Concerts, salons et festivals à Abidjan.</p>
+        </article>
+
+        <div class="work__center reveal">
+          <span class="dots" aria-hidden="true"><i></i><i></i></span>
+          <h2 class="title">Quelques-unes de<br><span class="blue">nos réalisations</span></h2>
+          <p>Chaque projet de notre collection reflète la passion et la créativité que nous mettons dans chaque aventure digitale. Des sites web élégants aux identités de marque audacieuses, notre portfolio montre l'étendue de notre expertise. Nous repoussons les limites pour créer des expériences qui dépassent vos attentes. Votre vision, réalisée avec précision et élégance.</p>
+          <a href="#services" class="btn btn--primary btn--sm"><span>Découvrir nos projets</span><i class="btn__arrow"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SOLUTIONS TECH (image qui s'agrandit) ================= -->
+    <section class="tech">
+      <div class="tech__head">
+        <span class="dots reveal" aria-hidden="true"><i></i><i></i></span>
+        <h2 class="title title--md reveal">Nous développons des solutions tech<br><span class="blue">qui comptent</span></h2>
+        <p class="reveal">Nous créons des solutions numériques performantes qui répondent aux défis concrets des entreprises ivoiriennes. Grâce à des technologies innovantes, nous développons des produits qui façonnent un avenir meilleur. Notre mission : avoir un vrai impact en concevant des solutions qui créent de la valeur.</p>
+      </div>
+      <div class="tech__stage">
+        <div class="tech__sticky">
+          <div class="tech__media" id="techMedia">
+            <img src="assets/img/tech.jpg" alt="Deux collègues travaillant sur un ordinateur portable">
+            <div class="tech__overlay">
+              <span class="dots dots--light" aria-hidden="true"><i></i><i></i></span>
+              <h3>Codons ensemble<br>un avenir meilleur</h3>
+              <p>Rejoignez-nous dans la création d'outils digitaux qui simplifient la vie quotidienne. Ensemble, faisons grandir l'écosystème tech ivoirien.</p>
+              <a href="#contact" class="btn btn--primary btn--sm"><span>Lancer un projet</span><i class="btn__arrow"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= UNE JOURNÉE TYPE ================= -->
+    <section class="day">
+      <div class="day__head">
+        <span class="dots reveal" aria-hidden="true"><i></i><i></i></span>
+        <h2 class="title title--md reveal">Une journée type <span class="blue">au bureau</span></h2>
+        <p class="reveal">Dans notre agence de Cocody, la créativité et la collaboration rythment notre quotidien. Nos bureaux débordent d'énergie : designers et développeurs y travaillent main dans la main pour donner vie à des idées novatrices. Jetez un œil aux photos ci-dessous pour découvrir l'ambiance de travail et l'équipe derrière nos succès.</p>
+      </div>
+
+      <div class="gallery">
+        <div class="gallery__row">
+          <img src="assets/img/galerie/g01.jpg" alt="" loading="lazy"><img src="assets/img/galerie/g02.jpg" alt="" loading="lazy"><img src="assets/img/galerie/g03.jpg" alt="" loading="lazy"><img src="assets/img/galerie/g04.jpg" alt="" loading="lazy"><img src="assets/img/galerie/g05.jpg" alt="" loading="lazy"><img src="assets/img/galerie/g06.jpg" alt="" loading="lazy">
+        </div>
+        <div class="gallery__row">
+          <img src="assets/img/galerie/g07.jpg" alt="" loading="lazy"><img src="assets/img/galerie/g08.jpg" alt="" loading="lazy"><img src="assets/img/galerie/g09.jpg" alt="" loading="lazy"><img src="assets/img/galerie/g10.jpg" alt="" loading="lazy"><img src="assets/img/galerie/g11.jpg" alt="" loading="lazy"><img src="assets/img/galerie/g12.jpg" alt="" loading="lazy">
+        </div>
+        <div class="gallery__row">
+          <img src="assets/img/galerie/g13.jpg" alt="" loading="lazy"><img src="assets/img/galerie/g14.jpg" alt="" loading="lazy"><img src="assets/img/galerie/g15.jpg" alt="" loading="lazy"><img src="assets/img/galerie/g16.jpg" alt="" loading="lazy"><img src="assets/img/galerie/g17.jpg" alt="" loading="lazy"><img src="assets/img/galerie/g18.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+
+      <div class="day__foot">
+        <p class="blur-text">Nous croyons en la transparence, et rien ne nous fait plus plaisir que de vous montrer les coulisses de notre agence. Venez prendre un café avec nous à Cocody, nous serons ravis de vous présenter l'équipe et nos méthodes.</p>
+        <a href="#apropos" class="btn-marquee reveal" aria-label="En savoir plus sur nous">
+          <span class="btn-marquee__track" aria-hidden="true"><span>EN SAVOIR PLUS SUR NOUS</span><span>EN SAVOIR PLUS SUR NOUS</span><span>EN SAVOIR PLUS SUR NOUS</span><span>EN SAVOIR PLUS SUR NOUS</span></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ================= WEBINAIRES (mosaïque qui tourne) ================= -->
+    <section class="webinar" id="webinaires">
+      <div class="webinar__head">
+        <span class="dots reveal" aria-hidden="true"><i></i><i></i></span>
+        <h2 class="title title--md reveal"><span class="blue">Webinaires mensuels</span><br>Développez de nouvelles compétences</h2>
+        <p class="reveal">Découvrez nos webinaires mensuels : conseils d'experts et ateliers pratiques sur le webdesign, le développement et le marketing digital. Chaque session vous offre un aperçu des coulisses de notre agence et des dernières tendances du numérique en Afrique de l'Ouest.</p>
+      </div>
+      <div class="webinar__stage">
+        <div class="webinar__sticky">
+          <div class="mosaic" id="mosaic">
+            <video class="t-a" src="assets/video/t-a.mp4" poster="assets/img/posters/t-a.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            <video class="t-b" src="assets/video/t-b.mp4" poster="assets/img/posters/t-b.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            <video class="t-c" src="assets/video/t-c.mp4" poster="assets/img/posters/t-c.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            <video class="t-d" src="assets/video/t-d.mp4" poster="assets/img/posters/t-d.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            <video class="t-e" src="assets/video/t-e.mp4" poster="assets/img/posters/t-e.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            <video class="t-f" src="assets/video/t-f.mp4" poster="assets/img/posters/t-f.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            <video class="t-g" src="assets/video/t-g.mp4" poster="assets/img/posters/t-g.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            <video class="t-h" src="assets/video/t-h.mp4" poster="assets/img/posters/t-h.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            <video class="t-i" src="assets/video/t-i.mp4" poster="assets/img/posters/t-i.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+          </div>
+        </div>
+      </div>
+      <div class="webinar__foot">
+        <a href="#contact" class="btn btn--primary btn--sm reveal"><span>En savoir plus sur nos webinaires</span><i class="btn__arrow"></i></a>
+      </div>
+    </section>
+
+    <!-- ================= LA DIFFÉRENCE ================= -->
+    <section class="diff">
+      <div class="container">
+        <div class="diff__top">
+          <div>
+            <span class="label reveal"><span class="dots dots--sm" aria-hidden="true"><i></i><i></i></span>Quelle est la différence ?</span>
+            <h2 class="title title--left reveal">Quand vous<br><span class="nowrap"><span class="blue">osez</span> <button class="toggle is-on" id="toggle" aria-label="Basculer" aria-pressed="true"><i></i></button> travailler avec nous.</span></h2>
+          </div>
+          <p class="diff__lead reveal">Attendez-vous à des solutions créatives, une communication claire et des résultats adaptés à votre vision quand vous travaillez avec nous.</p>
+          <a href="#contact" class="btn btn--primary btn--sm reveal"><span>Travailler avec nous</span><i class="btn__arrow"></i></a>
+        </div>
+
+        <div class="features">
+          <div class="feature reveal">
+            <svg viewBox="0 0 24 24"><path d="M11 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/><path d="M18.4 2.6a2 2 0 0 1 2.9 2.9L12 14.8l-4 1 1-4z"/></svg>
+            <h3>Créativité</h3>
+            <p>Des designs uniques pensés pour votre marque, qui captivent vos clients grâce à des visuels modernes.</p>
+          </div>
+          <div class="feature reveal">
+            <svg viewBox="0 0 24 24" class="dark"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+            <h3>Designs responsives</h3>
+            <p>Une expérience parfaite sur tous les écrans, du smartphone à l'ordinateur, pour plus d'engagement.</p>
+          </div>
+          <div class="feature reveal">
+            <svg viewBox="0 0 24 24" class="dark"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M21 21l-5.6-5.6"/></svg>
+            <h3>Référencement SEO</h3>
+            <p>Améliorez votre visibilité sur Google avec des stratégies qui font monter votre site dans les résultats.</p>
+          </div>
+          <div class="feature reveal">
+            <svg viewBox="0 0 24 24" class="dark fill"><circle cx="9" cy="8" r="3.2"/><circle cx="16.5" cy="9" r="2.6"/><path d="M2.5 19c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6z"/><path d="M15 13.3c3.4-.6 6.5 1.6 6.5 5.7H17"/></svg>
+            <h3>Accompagnement dédié</h3>
+            <p>Un suivi engagé tout au long du projet et après la mise en ligne. Nous restons joignables sur WhatsApp.</p>
+          </div>
+          <div class="feature reveal">
+            <svg viewBox="0 0 24 24" class="dark fill"><path d="M12 1.5 22.5 12 12 22.5 1.5 12z"/><path d="M8 13.5V11h5V8.5l3.5 3.5-3.5 3.5V13H9.5v.5z" fill="#fff"/></svg>
+            <h3>Livraison rapide</h3>
+            <p>Des délais respectés et des projets livrés à temps, sans jamais sacrifier la qualité.</p>
+          </div>
+          <div class="feature reveal">
+            <svg viewBox="0 0 24 24" class="dark"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6M14 4l-4 16"/></svg>
+            <h3>Solutions sur mesure</h3>
+            <p>Des sites et applications conçus selon vos besoins : paiement Orange Money, Wave, MTN MoMo et plus encore.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= NOS SERVICES (carrousel) ================= -->
+    <section class="services" id="services">
+      <div class="services__sticky">
+      <div class="container services__top">
+        <div>
+          <span class="label reveal"><span class="dots dots--sm" aria-hidden="true"><i></i><i></i></span>Nos services</span>
+          <h2 class="title title--left reveal">Des solutions digitales<br><span class="blue">qui ont de l'impact</span></h2>
+        </div>
+        <div class="services__aside reveal">
+          <p>Chaque jour, nous développons des solutions vraiment utiles qui facilitent un peu plus le quotidien des Ivoiriens. Nous travaillons avec des clients du secteur public comme du privé.</p>
+          <button class="circle-btn circle-btn--blue" id="nextSlide" aria-label="Projet suivant"><i class="btn__arrow"></i></button>
+        </div>
+      </div>
+
+      <div class="carousel" id="carousel">
+        <div class="carousel__track" id="track">
+          <article class="slide">
+            <img src="assets/img/s1.jpg" alt="">
+            <div class="slide__tags"><span>Développement web</span><span>Design de site</span></div>
+            <div class="slide__foot"><h3>BabiDrive<sup>TM</sup></h3><p>Une présence digitale dynamique pour BabiDrive grâce à un tout nouveau site web.</p></div>
+          </article>
+          <article class="slide">
+            <img src="assets/img/s2.jpg" alt="">
+            <div class="slide__tags"><span>Branding</span><span>Stratégie</span></div>
+            <div class="slide__foot"><h3>GarbaFood<sup>TM</sup></h3><p>Nous avons accompagné GarbaFood avec une stratégie de marque qui renforce sa présence et son impact.</p></div>
+          </article>
+          <article class="slide">
+            <img src="assets/img/s3.jpg" alt="">
+            <div class="slide__tags"><span>Design WordPress</span><span>Site web</span></div>
+            <div class="slide__foot"><h3>GbakaGo<sup>TM</sup></h3><p>Comment nous avons créé le site WordPress de GbakaGo pour renforcer son empreinte digitale.</p></div>
+          </article>
+          <article class="slide">
+            <img src="assets/img/s4.jpg" alt="">
+            <div class="slide__tags"><span>Application</span><span>Mobile Money</span></div>
+            <div class="slide__foot"><h3>LaguneDrive<sup>TM</sup></h3><p>Une appli de livraison avec paiement Wave et Orange Money, pensée pour Abidjan.</p></div>
+          </article>
+          <article class="slide">
+            <img src="assets/img/s5.jpg" alt="">
+            <div class="slide__tags"><span>E-commerce</span><span>UX Design</span></div>
+            <div class="slide__foot"><h3>AttiékéShop<sup>TM</sup></h3><p>Une boutique en ligne simple et rapide pour vendre les produits locaux dans tout le pays.</p></div>
+          </article>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- ================= NE RESTEZ PAS À LA TRAÎNE ================= -->
+    <section class="behind container">
+      <h2 class="title title--left title--sm reveal">Ne restez pas<br><span class="blue">à la traîne</span></h2>
+      <p class="behind__text blur-text">Nous sommes une équipe soudée avec plus de 20 ans d'expérience, qui aide les jeunes entreprises à révéler tout le potentiel de leurs produits.</p>
+    </section>
+
+  </main>
+
+  <!-- ================= PIED DE PAGE ================= -->
+  <footer class="footer container" id="contact">
+    <div class="footer__card reveal">
+      <div class="footer__media">
+        <img src="assets/img/footer.jpg" alt="Collaboratrice au travail sur son ordinateur">
+        <div class="footer__cta">
+          <h2>Faisons de <span class="blue">grandes choses</span><br>avec la tech ensemble</h2>
+          <p>Contactez-nous dès aujourd'hui pour explorer les possibilités de notre espace de travail collaboratif. Votre projet n'est qu'à un message ou un appel.</p>
+        </div>
+      </div>
+
+      <div class="footer__side">
+        <div class="footer__cols">
+          <div>
+            <h4>Services</h4>
+            <a href="#services">Développement web</a>
+            <a href="#services">Webdesign</a>
+            <a href="#services">Stratégie de marque</a>
+            <a href="#services">Publicité sur les réseaux</a>
+          </div>
+          <div class="right">
+            <h4>Projets</h4>
+            <a href="#services">BabiDrive<sup>TM</sup></a>
+            <a href="#services">GarbaFood<sup>TM</sup></a>
+            <a href="#services">GbakaGo<sup>TM</sup></a>
+            <a href="#services">LaguneDrive<sup>TM</sup></a>
+          </div>
+        </div>
+
+        <h3 class="footer__nl">Newsletter</h3>
+        <p class="footer__nltext">Rejoignez plus de 3 400 entrepreneurs ivoiriens et recevez nos meilleurs conseils digitaux chaque semaine.</p>
+        <form class="newsletter" onsubmit="event.preventDefault(); this.classList.add('is-sent'); this.querySelector('button span').textContent='Merci !';">
+          <input type="email" placeholder="votre@email.ci" required aria-label="Votre adresse e-mail">
+          <button class="btn btn--primary btn--xs" type="submit"><span>S'inscrire</span><i class="btn__arrow btn__arrow--sm"></i></button>
+        </form>
+
+        <ul class="footer__contact">
+          <li><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg><a href="tel:+2250707123456">+225 07 07 12 34 56</a></li>
+          <li><svg viewBox="0 0 24 24"><path d="M3 5h18v14H3z" /><path d="m3 6 9 7 9-7" fill="none" stroke="#fff" stroke-width="1.6"/></svg><a href="mailto:contact@eburnea.ci">contact@eburnea.ci</a></li>
+          <li><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg><span>Rue des Jardins, Cocody Riviera Golf, Abidjan</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>Fait avec <b class="heart">♥</b> à Abidjan par Eburnéa</span>
+    </div>
+  </footer>
+
+  <!-- Pastille WhatsApp (bas gauche) -->
+  <a class="wa-pill" href="https://wa.me/2250707123456" target="_blank" rel="noopener">
+    <span>Discutons sur WhatsApp</span>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.5-.6a11.4 11.4 0 0 1-4.4-3.9c-.3-.5-.9-1.4-.9-2.6 0-1.2.6-1.8.9-2.1.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.1.1.3 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.5 1.9 1 .9 1.9 1.2 2.2 1.3.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.8.9c.3.1.4.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+  </a>
+
+  <!-- Badge rotatif « Parlons-en » (bas droite) -->
+  <a class="talk" href="#contact" aria-label="Parlons de votre projet">
+    <svg class="talk__ring" viewBox="0 0 100 100" aria-hidden="true">
+      <defs><path id="circ" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"/></defs>
+      <text><textPath href="#circ">CONTACT • PARLONS-EN • CONTACT • PARLONS-EN •</textPath></text>
+    </svg>
+    <svg class="talk__globe" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.7 2.6 4 5.6 4 9s-1.3 6.4-4 9c-2.7-2.6-4-5.6-4-9s1.3-6.4 4-9zM4.5 7.5h15M4.5 16.5h15"/></svg>
+  </a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
